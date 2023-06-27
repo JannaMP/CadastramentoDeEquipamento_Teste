@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-menu: #1F1F1F;
+    --verde: #01B574;
+    --branco: #F4F4F4;
+    --cinza_claro: #8F8F8F;
+
+
+    --font1: 'Tajawal', sans-serif;
+    --font2: 'Inter', sans-serif;
+}
+
+body{
+
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_lateral{
+    width: 20%;
+    height: 100%;
+
+    background-color: var(--background-menu);
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn_expandir{
+    width: 100%;
+    padding-left: 40px;
+    color: var(--branco);
+    font-size: 40px;
+    cursor: pointer;
+    font-family: var(--font1);
+    
+    
+}
+
+.menu_conteudo{
+    padding-top: 40%;
+}
+
+ul{
+    width: 100%;
+    list-style-type: none;
+    font-family: var(--font1);
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.item_menu a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.primeiros_itens, .segundos_itens, .terceiros_itens{
+    margin-bottom: 40px;
+}
+
+.txt_link{
+    margin-left: 5px;
+    position: fixed;
+}
+
+.btn_equipamentos{
+    border-radius: 10px;
+    background-color: var(--verde);
+    height: 35px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+
+h1{
+    font-family: var(--font2);
+    padding: 20px;
+}
+
+h2{
+    font-family: var(--font2);
+    color: var(--cinza_claro);
+    font-weight: 100;
+    font-size: 25px;
+    padding: 20px;
+}
+
+hr{
+    width: 50%;
+}
+
+.usuario, .icon_usuario{
+    text-decoration: none;
+    font-family: var(--font1);
+    font-size: 25px;
+    padding: 20px 0;
+    float: left;
+}
+
+
+/*
+.pseudo_btn_darkmode{
+    border-radius: 20px;
+    background-color: var(--verde);
+    width: 112px;
+    height: 43px;
+}
+
+
+
+.pseudo_btn_darkmode > i{
+    color: var(--branco);
+    font-size: 30px;
+}
+
+*/
+
+.equipamentos{
+    height: 100%;
+    width: 80%;
+    
+}
+
+
+.cadastro_de_equipamentos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+form{
+    position: relative;
+   
+    
+}
+
+
+input{
+    border-radius: 17px;
+    border: none;
+    background-color: var(--verde);
+    margin-bottom: 20px;
+    height: 45px;
+    width: 20%;
+    
+}
+
+
+button {
+    background-color: var(--verde);
+    height: 30px;
+    border: none;
+    border-radius:17px;
+    color: white;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    height: 45px;
+    width: 20%;
+}
+
+.inputs{
+    display: flex;
+    margin-left: 20px;
+    
+}
