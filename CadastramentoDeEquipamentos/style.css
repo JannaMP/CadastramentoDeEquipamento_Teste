@@ -7,8 +7,10 @@
 :root{
     --background-menu: #1F1F1F;
     --verde: #01B574;
+    --verde-claro: #3BA8801C;
     --branco: #F4F4F4;
     --cinza_claro: #8F8F8F;
+    --rosa: #CF4B83;
 
 
     --font1: 'Tajawal', sans-serif;
@@ -91,11 +93,11 @@ h1{
     padding: 20px;
 }
 
-h2{
+h2, h3{
     font-family: var(--font2);
     color: var(--cinza_claro);
     font-weight: 100;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -103,14 +105,10 @@ hr{
     width: 50%;
 }
 
-.usuario, .icon_usuario{
-    text-decoration: none;
-    font-family: var(--font1);
-    font-size: 25px;
-    padding: 20px 0;
-    float: left;
+.usuario{
+    margin-left: 88%;
+    
 }
-
 
 /*
 .pseudo_btn_darkmode{
@@ -145,27 +143,31 @@ hr{
 
 form{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
    
     
 }
 
 
-input{
-    border-radius: 17px;
+input, select{
+    border-radius:30%;
     border: none;
-    background-color: var(--verde);
+    background-color: var(--verde-claro);
     margin-bottom: 20px;
-    height: 45px;
-    width: 20%;
+    height: 50px;
+    width: 18%;
+    text-align: center;
     
 }
 
 
-button {
+.cadastro_de_equipamentos button {
     background-color: var(--verde);
     height: 30px;
     border: none;
-    border-radius:17px;
+    border-radius: 17px;
     color: white;
     font-family: var(--font2);
     font-size: 16px;
@@ -175,7 +177,51 @@ button {
 }
 
 .inputs{
-    display: flex;
     margin-left: 20px;
     
+    
 }
+
+.tabela{
+    padding-left: 20px;
+}
+
+table{
+    font-family:var(--font2) ;
+    font-size: 15px;
+   
+   
+
+}
+
+td{
+    word-spacing: 30px;
+    border-collapse: collapse;
+    padding-bottom: 20px;
+
+}
+
+tr{
+    word-spacing: 10px;
+}
+
+th{
+    padding-bottom: 20px;
+}
+
+.maquinas_cadastradas button{
+    border-radius: 17px;
+    background-color: var(--rosa);
+    color: white;
+    font-weight: bold;
+    font-family: var(--font2);
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 25px;
+    width: 100px;
+    font-size: 16px;
+    border: 0;
+
+}
+
+
