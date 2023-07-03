@@ -38,9 +38,7 @@
   
   }
   
-  hr{
-  width: 50%;
-  }
+
   
   
   /*
@@ -516,6 +514,7 @@
   .maquinas_cadastradas button{
     height: 16px;
     font-size: 10px;
+    width: 70px;
    
   }
 
@@ -545,10 +544,113 @@
 
     
     .cadastro_de_equipamentos button{ 
-      width: 25%;
+      width: 27%;
     }
 
+
+    
+      .tabela {
+     
+      font-size: 11px;
+      }
+
+      td{
+          width: 100;
+          padding-left: 7px;
+      }
   
    }
 
- 
+   @media screen and (max-width: 420px) {
+
+     h2{  
+          font-size: 15px;
+      
+    }
+
+    h3{
+      font-size: 15px;
+    
+    }
+
+    input{
+      width: 26%;
+      font-size: 11px;
+    }
+
+    .cadastro_de_equipamentos button{ 
+      width: 29%;
+      font-size: 12px;
+     
+    }
+
+    .tabela{
+      font-size: 8px;
+  }
+
+  .maquinas_cadastradas button{
+      height: 12px;
+      font-size: 8px;
+      width: 40px;
+      margin-left: 10px;
+     
+    }
+
+    td{
+      width: 100;
+      padding-left: 4px;
+  }
+
+
+
+
+
+
+
+    }
+    
+    @media screen and (max-width: 325px) {
+      h2{  
+          font-size: 12px;
+      
+    }
+
+    h3{
+      font-size: 12px;
+    
+    }
+
+    input{
+      width: 26%;
+      font-size: 9px;
+    }
+
+    .cadastro_de_equipamentos button{ 
+      width: 28%;
+      font-size: 8px;
+     
+    }
+
+    .tabela{
+      font-size: 6px;
+  }
+
+  .maquinas_cadastradas button{
+      height: 10px;
+      font-size: 6px;
+      width: 35px;
+      margin-left: 5px;
+     
+    }
+
+    td{
+      width: 100;
+      padding: 0;
+  }
+
+
+
+
+
+    }
+      
